@@ -1,12 +1,12 @@
 <template>
-  <Homepage v-for="item in items" :key="item.id" :item='item' />
+  <Thumbnail v-for="item in items" :key="item.id" :item='item' />
 </template>
 
 <script setup>
 //=============
 // Import
 //=============
-import Homepage from './components/Homepage.vue';
+import Thumbnail from './components/Thumbnail.vue';
 
 //=============
 // Consts
