@@ -26,7 +26,7 @@ function onClick() {
 
 </script>
 
-<style>
+<style scoped>
 
 .img-wrapper {
   margin: 10px;
